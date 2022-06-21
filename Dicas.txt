@@ -1,5 +1,6 @@
+# Sincronizar arquivos do PC para o Github
+git push origin main 
+
+
 # Sincronizar arquivos do Github para o PC
 git pull origin main
-
-# Sincronizar arquivos do PC para o Github
-git push origin main
