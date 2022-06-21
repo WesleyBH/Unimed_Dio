@@ -4,3 +4,11 @@ git push origin main
 
 # Sincronizar arquivos do Github para o PC
 git pull origin main
+
+
+# Comandos mais utilizados
+
+git status
+git add . ou arquivo
+git commit -m "Comentário"
+git push origin main
