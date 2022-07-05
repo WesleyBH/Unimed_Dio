@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Flex</title>
+    <style>
+
+        .flex-container {
+            display: flex;
+            border: 2px solid black;
+            max-width: 400px;
+            margin-bottom: 5px;
+        }
+
+        .item {
+            background-color: brown;
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+        }
+
+        .flex1 {
+            flex: 1;
+        }
+
+        .flex2 {
+            flex: 2;
+        }
+
+        .largura {
+            width: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <p>Flex 1</p>
+    <div class="flex-container">
+        <div class="item flex1">A</div>
+        <div class="item flex1">B</div>
+        <div class="item flex1">C</div>
+        <div class="item flex1">D</div>
+        <div class="item flex1">E</div>
+    </div>
+
+    <p>Flex Mix</p>
+    <div class="flex-container">
+        <div class="item flex1">A</div>
+        <div class="item flex2">B</div>
+        <div class="item flex2">C</div>
+        <div class="item flex1">D</div>
+        <div class="item flex1">E</div>
+    </div>
+
+    <p>Width Ignorado</p>
+    <div class="flex-container">
+        <div class="item flex1 largura">A</div>
+        <div class="item flex1 largura">B</div>
+        <div class="item flex1 largura">C</div>
+        <div class="item flex1 largura">D</div>
+        <div class="item flex1 largura">E</div>
+    </div>
+
+</body>
+</html>
